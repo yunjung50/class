@@ -10,3 +10,5 @@ def janghoon(request):
 
 def janghoon2(request):
     return render(request, 'janghoon2.html')
+def yunjung(request):
+    return render(request, 'yunjung.html')

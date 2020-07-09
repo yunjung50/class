@@ -22,4 +22,5 @@ urlpatterns = [
     path('', views.index, name = 'index'),
     path('janghoon/', views.janghoon, name = 'janghoon'),
     path('janghoon2/', views.janghoon2, name = 'janghoon2'),
+    path('yunjung/', views.yunjung, name ='yunjung'),
 ]
