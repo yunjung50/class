@@ -21,4 +21,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.index, name = 'index'),
     path('janghoon/', views.janghoon, name = 'janghoon'),
+    path('janghoon2/', views.janghoon2, name = 'janghoon2'),
 ]

@@ -7,3 +7,6 @@ def index(request):
 
 def janghoon(request):
     return render(request, 'janghoon.html')
+
+def janghoon2(request):
+    return render(request, 'janghoon2.html')
